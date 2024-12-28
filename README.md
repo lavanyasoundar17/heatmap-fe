@@ -14,6 +14,8 @@ Integration with APIs for fetching and displaying map data.
 **Backend**
 RESTful API for handling user data and heatmap data.
 Data storage and retrieval using MongoDB.
+**Backend Project Link**
+https://github.com/lavanyasoundar17/Heatmap-BE
 
 **Prerequisites**
 Node.js (v16 or later)

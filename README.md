@@ -1,50 +1,18 @@
-# React + TypeScript + Vite
+Overview The Travel Heatmap project is a web application designed to visualize Google Location History into an interactive heat map making it easy for users to see patterns and analyze personal travel data over time. Technologies Used Frontend: React with TypeScript Backend: Spring Boot Database: MongoDB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features Frontend Interactive heatmap visualization. User-friendly interface to submit location data. Integration with APIs for fetching and displaying map data.
 
-Currently, two official plugins are available:
+Backend RESTful API for handling user data and heatmap data. Data storage and retrieval using MongoDB. Backend Project Link https://github.com/lavanyasoundar17/Heatmap-BE
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Prerequisites Node.js (v16 or later) npm or yarn
 
-## Expanding the ESLint configuration
+Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Clone the repository
+Install dependencies:
+npm install or yarn install
 
-- Configure the top-level `parserOptions` property like this:
+Start the development server:
+npm start or yarn start
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Environment Variables Create a .env file in the root directory and add the following variables: REACT_APP_MAP_API_KEY=<your MAP Api token>

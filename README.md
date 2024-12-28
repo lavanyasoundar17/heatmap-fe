@@ -22,12 +22,15 @@ npm or yarn
 **Installation**
 1. Clone the repository
 2. Install dependencies:
+   
 npm install
-# or
+or
 yarn install
-3. Start the development server:
+
+4. Start the development server:
+   
 npm start
-# or
+or
 yarn start
 
 **Environment Variables**

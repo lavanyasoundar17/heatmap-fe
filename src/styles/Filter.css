@@ -1,0 +1,20 @@
+.filter-container {
+  display: flex;
+  background: rgba(0, 0, 0, 0.88);
+  justify-content: space-between;
+  align-items: end;
+}
+
+.import-btn {
+  width: 180px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+.import-btn:hover {
+  transform: translateY(0px);
+}
+
+.fileInput {
+  visibility: hidden;
+  display: none;
+}

@@ -1,0 +1,11 @@
+.main-container {
+  /* Make the container take up the full viewport height */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.map-container {
+  width: 100%;
+  height: calc(100vh - 80px);
+}

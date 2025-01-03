@@ -8,10 +8,13 @@ Technologies Used
 
 **Features**
 **Frontend**
+
 **Data Upload:** 
 Users can easily upload their Google Location History JSON file obtained from their Google account.
+
 **Heatmap Visualization:** 
 Displays a heatmap showcasing the user's visited locations over time.
+
 **Interactive Map:** 
 Includes zoom and pan features for exploring the map in detail.
 Integration with APIs for fetching and displaying map data.
